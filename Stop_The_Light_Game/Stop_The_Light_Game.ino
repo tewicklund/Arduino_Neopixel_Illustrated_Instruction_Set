@@ -25,8 +25,8 @@ void loop() {
   // put your main code here, to run repeatedly:
 
   //set custom RGB colors for the target and normal LED Colors:
-  int targetLEDColor[3] =CRGB::Green;
-  int normalLEDColor[3] =CRGB::Red;
+  int targetLEDColor[3] ={0, 255, 0};
+  int normalLEDColor[3] ={255, 0, 0};
   int difficulty = 5;
 
   //function to run the stop-the-light game
